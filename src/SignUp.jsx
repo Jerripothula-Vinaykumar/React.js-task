@@ -13,14 +13,14 @@ function SignUp() {
             <label for="password">
               Email address
             </label>
-            <input disabled placeholder="Enter email Address" type="password" id="password" />
+            <input  placeholder="Enter email Address" type="password" id="password" />
           </div>
 
           <div class="input-box">
             <label for="city">
               Password
             </label>
-            <input disabled  placeholder="Enter password" type="text" id="city" />
+            <input   placeholder="Enter password" type="text" id="city" />
           </div>
           <button className="loginbutton">
           <Link className="linktag" to="/Home">

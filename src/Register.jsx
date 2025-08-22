@@ -9,48 +9,58 @@ function Register() {
 
         <div className="form-container">
           <div className="input-box">
+            
             <label htmlFor="name">
               Full Name<span className="requiredstar">*</span>
             </label>
-            <input disabled type="text" id="name" placeholder="Marry Doe"/>
+            <input required type="text" id="name" placeholder="Marry Doe" />
           </div>
-
           <div className="input-box">
             <label htmlFor="email">
               Phone Number<span className="requiredstar">*</span>
             </label>
-            <input disabled  placeholder="Marry Doe" type="email" id="email" />
+            <input required placeholder="Marry Doe" type="number" id="email" />
           </div>
-
           <div className="input-box">
             <label for="password">
               Email address<span className="requiredstar">*</span>
             </label>
-            <input disabled placeholder="Marry Doe" type="password" id="password" />
+            <input
+              required
+              placeholder="Marry Doe"
+              type="email"
+              id="password"
+            />
           </div>
-
           <div className="input-box">
             <label for="city">
               Password<span className="requiredstar">*</span>
             </label>
-            <input disabled  placeholder="Marry Doe" type="text" id="city" />
+            <input required placeholder="Marry Doe" type="text" id="city" />
           </div>
           <div className="input-box">
             <label for="city">
               Company Name<span className="requiredstar">*</span>
             </label>
-            <input disabled  placeholder="Marry Doe" type="text" id="city" />
+            <input required placeholder="Marry Doe" type="text" id="city" />
+          </div>{" "}
+          <p className="areyouanagencytxt">Are you an Agency?</p>
+          <div className="inputradiocontainer">
+            <input className="agency" type="radio" name="option" id="" />
+            <label className="yesandno" htmlFor="agency">
+              Yes
+            </label>
+            <input type="radio" name="option" id="" />
+            <label htmlFor="agency">No</label>
           </div>
-         <div> <p className="areyouanagencytxt">Are you an Agency?</p>
-        <div className="inputradiocontainer"><input className="agency" checked type="radio" name="" id="" /><label className="yesandno" htmlFor="agency">Yes</label><input disabled type="radio" name="" id="" /><label htmlFor="agency">No</label>
-        </div></div>
-        </div>
-        <div className="buttoncontainer">
-            <button className="createaccbutton">
-          <Link className="linktag" to="/Home">
-            Create Account
-          </Link>
-        </button>
+          <div className="buttoncontainer">
+            <button type="submit" className="createaccbutton">
+              <Link className="linktag" to="/Home">
+                Create Account
+              </Link>
+            </button>
+          </div>
+    
         </div>
       </div>
     </div>

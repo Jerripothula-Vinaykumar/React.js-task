@@ -21,7 +21,7 @@
 }
 .wecometxt {
   font-size: 1.3em;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 .loremtxt {
   opacity: 0.5;
@@ -77,6 +77,7 @@
 }
 
 .form-container {
+  height: 80dvh;
   width: 100%;
   margin: 40px auto 2px auto;
   display: flex;
@@ -114,7 +115,7 @@
   margin-left: 1px;
 }
 .buttoncontainer {
-  height: 25%;
+  height: 25vh;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -151,7 +152,7 @@
 }
 .signintxt {
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-weight: 700;
 }
 .loginbutton {
@@ -219,7 +220,8 @@
 }
 .profileimg {
   width: 80%;
-  height: 70%;
+  margin-top:1em;
+  height: 100%;
   border-radius: 20em;
   border: 1px solid black;
   background-image: url("https://tse4.mm.bing.net/th/id/OIP.Kk4i-k-7bOfsgPv0SJtj5AHaHa?pid=Api&P=0&h=180");
